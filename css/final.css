@@ -1,0 +1,149 @@
+@charset "utf-8";
+
+html{
+    background-color: #161616;
+}
+
+header{
+    width: 1366px;
+    height: 50px;
+    text-transform:capitalize;
+    color: #ffffff;
+    text-align: bottom;
+}
+
+.owl-carousel {
+width: 1200px; 
+height: 600px;
+margin-left: 83px;
+margin-right: 83px;
+position: absolute;
+background-size: contain;
+background: no-repeat center;
+text-align: center;
+}
+
+.u-max-full-width2{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.owl-dots {
+    margin-top: 0px;
+}
+
+.owl-dot {
+   width:25px;
+   height:2px;
+   border-radius: 0px; 
+   text-align: left;
+   float: left;
+   margin-right:10px;
+   border-radius: 0px; 
+   background-color: #ffffff !important; 
+}
+
+
+.home{
+    padding-left: 83px;
+    padding-right: 83px;
+}
+
+#arbeit{
+background-image: url("../images/elementaryJPG.jpg");
+width: 300px;   
+height: 600px;
+margin-top: 600px;
+margin-left: 0px;
+}
+
+#elementary{
+background-image: url("../images/univ.graduate.jpg");
+width: 600px;   
+height: 300px;
+margin-top: 600px;
+margin-left: 300px;
+}
+
+#kickers{
+background-image: url("../images/IMG_0300.jpg");
+width: 300px;   
+height: 300px;
+margin-top: 900px;
+margin-left: 300px;
+}
+
+#reyes{
+background-image: url("../images/reyes.jpg");
+width: 300px;   
+height: 300px;
+margin-top: 900px;
+margin-left: 600px;
+}
+
+#juniorhigh{
+background-image: url("../images/juniorhigh.jpg");
+width: 300px;   
+height: 600px;
+margin-top: 600px;
+margin-left: 900px;
+}
+
+#highschool{
+background-image: url("../images/high.jpg");
+width: 300px;
+height: 600px;
+margin-top: 1200px;
+margin-left: 0px;
+}
+
+#keiosoccer{
+background-image: url("../images/soccer.JPG");
+width: 300px;   
+height: 300px;
+margin-top: 1200px;
+margin-left: 300px;
+}
+
+#lax{
+background-image: url("../images/lax.jpg");
+width: 300px;   
+height: 300px;
+margin-top: 1200px;
+margin-left: 600px;
+}
+
+#univ{
+background-image: url("../images/university.jpg");
+width: 300px;   
+height: 600px;
+margin-top: 1200px;
+margin-left: 900px;
+}
+
+#tabippo{
+background-image:url("../images/tabippo.jpg");
+width: 600px;   
+height: 300px;
+margin-top: 1500px;
+margin-left: 300px;
+}
+
+.memory{
+position: absolute;
+background-size: contain;
+background-repeat: no-repeat;
+background-position: center center;
+max-height: 100%;
+max-width: 100%;
+background-color: #303030;
+border: 1px solid #000000;
+}
+
+.message{
+    width: 1200px;
+    height: 300px;
+    padding-top: 1800px;
+    color: #ffffff;
+    display: none;
+}
