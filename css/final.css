@@ -140,10 +140,12 @@ background-color: #303030;
 border: 1px solid #000000;
 }
 
-.message{
+#message{
+    position: absolute;
+    margin-top: 1800px;
     width: 1200px;
     height: 300px;
-    padding-top: 1800px;
     color: #ffffff;
-    display: none;
+    margin-left: 83px;
+    margin-right: 83px;
 }
