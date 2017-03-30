@@ -67,7 +67,7 @@ text-align: center;
 
 .home{
     width:1200px;
-    margin-top: 630px;
+    margin-top: 644px;
 }
 
 .scale{
@@ -75,7 +75,7 @@ float: left;
 width: 33%;
 height: 300px;
 margin-top:50px;
-border: 1px solid #000000;
+margin-left: 3px;
 overflow: hidden;
 }
 
@@ -101,12 +101,17 @@ overflow: hidden;
 
 .message{
     position: absolute;
-    margin-top: 1105px;
+    margin-top: 1078px;
     width: 1200px;
     height: 300px;
     color: #516c7d;
     overflow: hidden;
 }
+
+fotter{
+    height: 46px;
+}
+
 
 .fadeInDown {
  -webkit-animation-fill-mode:both;
