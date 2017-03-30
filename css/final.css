@@ -1,12 +1,14 @@
 @charset "utf-8";
 
 html{
-    background-color: #161616;
+    background-color: #ffffff;
+    margin-left: 83px;
+    margin-right: 83px;
 }
 
 header{
     width: 1366px;
-    height: 50px;
+    height: 10px;
     text-transform:capitalize;
     color: #ffffff;
     text-align: bottom;
@@ -15,17 +17,10 @@ header{
 .owl-carousel {
 width: 1200px; 
 height: 600px;
-margin-left: 83px;
-margin-right: 83px;
 position: absolute;
 background-size: contain;
 background: no-repeat center;
 text-align: center;
-}
-
-.u-max-full-width2{
-    max-width: 100%;
-    max-height: 100%;
 }
 
 .owl-dots {
@@ -34,118 +29,101 @@ text-align: center;
 
 .owl-dot {
    width:25px;
-   height:2px;
+   height:10px;
+   margin-top:5px;
    border-radius: 0px; 
    text-align: left;
    float: left;
    margin-right:10px;
    border-radius: 0px; 
-   background-color: #ffffff !important; 
+   background-color: #F0E68C !important; 
 }
 
+.overlay{
+    background-color: #ffffff;
+    color: #000000;
+    width: 100vw;
+    height: 100vh;
+    vertical-align:middle;
+    text-align: center;
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: text 4s 3s forwards;
+}
+
+@-webkit-keyframes text {
+  0% {opacity:1; }
+  100% {opacity:0; z-index: -1; }
+}
+@keyframes text {
+      0% { opacity:1; }
+  100% { opacity:0;z-index: -1; }
+}
 
 .home{
-    padding-left: 83px;
-    padding-right: 83px;
+    width:1200px;
+    margin-top: 630px;
 }
 
-#arbeit{
-background-image: url("../images/elementaryJPG.jpg");
-width: 300px;   
-height: 600px;
-margin-top: 600px;
-margin-left: 0px;
-}
-
-#elementary{
-background-image: url("../images/univ.graduate.jpg");
-width: 600px;   
+.scale{
+float: left;
+width: 33%;
 height: 300px;
-margin-top: 600px;
-margin-left: 300px;
-}
-
-#kickers{
-background-image: url("../images/IMG_0300.jpg");
-width: 300px;   
-height: 300px;
-margin-top: 900px;
-margin-left: 300px;
-}
-
-#reyes{
-background-image: url("../images/reyes.jpg");
-width: 300px;   
-height: 300px;
-margin-top: 900px;
-margin-left: 600px;
-}
-
-#juniorhigh{
-background-image: url("../images/juniorhigh.jpg");
-width: 300px;   
-height: 600px;
-margin-top: 600px;
-margin-left: 900px;
-}
-
-#highschool{
-background-image: url("../images/high.jpg");
-width: 300px;
-height: 600px;
-margin-top: 1200px;
-margin-left: 0px;
-}
-
-#keiosoccer{
-background-image: url("../images/soccer.JPG");
-width: 300px;   
-height: 300px;
-margin-top: 1200px;
-margin-left: 300px;
-}
-
-#lax{
-background-image: url("../images/lax.jpg");
-width: 300px;   
-height: 300px;
-margin-top: 1200px;
-margin-left: 600px;
-}
-
-#univ{
-background-image: url("../images/university.jpg");
-width: 300px;   
-height: 600px;
-margin-top: 1200px;
-margin-left: 900px;
-}
-
-#tabippo{
-background-image:url("../images/tabippo.jpg");
-width: 600px;   
-height: 300px;
-margin-top: 1500px;
-margin-left: 300px;
-}
-
-.memory{
-position: absolute;
-background-size: contain;
-background-repeat: no-repeat;
-background-position: center center;
-max-height: 100%;
-max-width: 100%;
-background-color: #303030;
+margin-top:50px;
 border: 1px solid #000000;
+overflow: hidden;
 }
 
-#message{
+.scale img {
+    -moz-transition: -moz-transform 0.5s linear;
+    -webkit-transition: -webkit-transform 0.5s linear;
+    -o-transition: -o-transform 0.5s linear;
+    -ms-transition: -ms-transform 0.5s linear;
+    transition: transform 0.5s linear;
+}
+.scale img:hover {
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.u-max-full-width2{
+    width: 100%;
+    height: 100%;
+}
+
+.message{
     position: absolute;
-    margin-top: 1800px;
+    margin-top: 1105px;
     width: 1200px;
     height: 300px;
-    color: #ffffff;
-    margin-left: 83px;
-    margin-right: 83px;
+    color: #516c7d;
+    overflow: hidden;
+}
+
+.fadeInDown {
+ -webkit-animation-fill-mode:both;
+ -ms-animation-fill-mode:both;
+ animation-fill-mode:both;
+ -webkit-animation-duration:2s;
+ -ms-animation-duration:2s;
+ animation-duration:2s;
+ -webkit-animation-name: fadeInDown;
+ animation-name: fadeInDown;
+ visibility: visible !important;
+}
+@-webkit-keyframes fadeInDown {
+ 0% { opacity: 0; -webkit-transform: translateY(-20px); }
+ 100% { opacity: 1; -webkit-transform: translateY(0); }
+}
+@keyframes fadeInDown {
+ 0% { opacity: 0; -webkit-transform: translateY(-20px); -ms-transform: translateY(-20px); transform: translateY(-20px); }
+ 100% { opacity: 1; -webkit-transform: translateY(0); -ms-transform: translateY(0); transform: translateY(0); }
 }
